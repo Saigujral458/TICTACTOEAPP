@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ticbg"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="PLAYER X TURN"
+        android:textSize="24sp"
+        android:textColor="#B9B7BD"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button"
+
+            android:backgroundTint="@color/material_on_background_disabled"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:textColor="#B9B7BD"
+            android:textSize="50sp"
+            tools:ignore="NestedWeights,SpeakableTextPresentCheck"
+             />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:textColor="#B9B7BD"
+            android:backgroundTint="@color/material_on_background_disabled"
+
+            android:textSize="50sp"
+            tools:ignore="SpeakableTextPresentCheck"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#B9B7BD"
+            android:textSize="50sp"
+            android:backgroundTint="@color/material_on_background_disabled"
+
+            tools:ignore="SpeakableTextPresentCheck"
+                                                  />
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:textColor="#B9B7BD"
+            android:textSize="50sp"
+            android:backgroundTint="@color/material_on_background_disabled"
+
+            tools:ignore="NestedWeights,SpeakableTextPresentCheck"
+           />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/material_on_background_disabled"
+
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:textColor="#B9B7BD"
+            android:textSize="50sp"
+            tools:ignore="SpeakableTextPresentCheck"
+ />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/material_on_background_disabled"
+
+            android:layout_weight="1"
+            android:textColor="#B9B7BD"
+            android:textSize="50sp"
+            tools:ignore="SpeakableTextPresentCheck"
+ />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/button7"
+            android:backgroundTint="@color/material_on_background_disabled"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:textColor="#B9B7BD"
+            android:textSize="50sp"
+            tools:ignore="NestedWeights,SpeakableTextPresentCheck"
+             />
+
+        <Button
+            android:id="@+id/button8"
+            android:backgroundTint="@color/material_on_background_disabled"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:textColor="#B9B7BD"
+            android:textSize="50sp"
+            tools:ignore="SpeakableTextPresentCheck"
+            />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#B9B7BD"
+            android:textSize="50sp"
+            android:backgroundTint="@color/material_on_background_disabled"
+             />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/rst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="RESET"
+        android:textColor="#B9B7BD"
+        android:textSize="24sp"
+        android:backgroundTint="@color/material_on_background_disabled"
+
+        />
+
+
+
+</LinearLayout>
+
